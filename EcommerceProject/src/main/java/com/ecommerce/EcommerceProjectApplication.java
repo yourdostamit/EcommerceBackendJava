@@ -17,7 +17,7 @@ public class EcommerceProjectApplication {
         SpringApplication.run(EcommerceProjectApplication.class, args);
         System.out.println("The ecommerce app is running...");
     }
-
+//this is the bean
     @Bean
     public CorsFilter corsFilter() {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
